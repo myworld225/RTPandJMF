@@ -6,6 +6,7 @@ package iconic;/**
  */
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -30,11 +31,26 @@ public class LoginController extends StackPane implements Initializable {
     @FXML
     Label errorMessage;
 
+    private Main application;
+
+    public void setApp(Main application){
+        this.application = application;
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         errorMessage.setText("");
         userID.setPromptText("demo");
         password.setPromptText("demo");
+    }
+
+    public void processLogin(ActionEvent event){
+        if(application == null){
+            errorMessage.setText("Hello " + userID.getText());
+        } else {
+            if(!application.userLogging(userID.getText(), password.getText())){
+                errorMessage.setText("Username/Password is incorrect");
+            }
+        }
     }
 }

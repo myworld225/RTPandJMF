@@ -26,7 +26,7 @@
                      </children></AnchorPane>
                </children>
             </VBox>
-            <Button fx:id="login" mnemonicParsing="false" prefHeight="70.0" prefWidth="300.0" text="Login" AnchorPane.bottomAnchor="66.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+            <Button fx:id="login" mnemonicParsing="false" prefHeight="70.0" prefWidth="300.0" text="Login" AnchorPane.bottomAnchor="66.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" onAction="#processLogin"  />
             <HBox alignment="CENTER" prefHeight="25.0" prefWidth="300.0" AnchorPane.bottomAnchor="156.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
                <children>
                   <Label fx:id="errorMessage" />
