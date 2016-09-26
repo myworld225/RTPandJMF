@@ -1,0 +1,13 @@
+.label{
+    -fx-text-fill: #000000;
+}
+
+.button{
+    -fx-background-color: #AB4642;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 4;
+}
+
+.top-segment{
+    -fx-background-color: lavender;
+}
