@@ -21,7 +21,7 @@
                         <Button mnemonicParsing="false" prefWidth="65.0" text="화상통화" />
                         <Button mnemonicParsing="false" prefWidth="65.0" text="채팅" />
                         <Button mnemonicParsing="false" prefWidth="64.0" text="친구추가" />
-                        <Button mnemonicParsing="false" prefWidth="65.0" style="-fx-background-color: #7cafc2;" />
+                        <Button mnemonicParsing="false" prefWidth="65.0" style="-fx-background-color: #7cafc2;" text="로그아웃" />
                     </items>
                     <VBox.margin>
                         <Insets />

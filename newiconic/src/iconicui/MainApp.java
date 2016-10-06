@@ -28,7 +28,7 @@ public class MainApp extends Application {
 
     private Stage window;
     private Group root = new Group();
-    private User loggedUser;
+    private User loggedUser; //log in 된 유저의 정보를 포함하고 있는 객체
 
 
 /*****************************************************************************
@@ -74,8 +74,8 @@ public class MainApp extends Application {
     private void gotoMainMenu(){
 
         try{
-            MainMenuController mainmenu = (MainMenuController)replaceSceneContent("MainMenu.fxml");
-            mainmenu.setApp(this);
+            MainMenuController mainMenu = (MainMenuController)replaceSceneContent("MainMenu.fxml");
+            mainMenu.setApp(this);
         } catch (Exception ex) {
             Logger.getLogger(MainApp.class.getName()).log(Level.SEVERE, null, ex);
         }

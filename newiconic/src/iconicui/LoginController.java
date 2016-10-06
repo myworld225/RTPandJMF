@@ -23,6 +23,8 @@ public class LoginController implements Initializable{
     @FXML
     Button login;
     @FXML
+    Button signUp;
+    @FXML
     Label errorMessage;
 
     private MainApp application;

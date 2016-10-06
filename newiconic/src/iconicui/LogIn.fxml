@@ -11,8 +11,7 @@
 <?import javafx.scene.control.Label?>
 <?import java.net.URL?>
 
-
-  <AnchorPane prefHeight="594.0" prefWidth="362.0" styleClass="top-segment" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iconicui.LoginController">
+<AnchorPane prefHeight="594.0" prefWidth="362.0" styleClass="top-segment" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iconicui.LoginController">
       <children>
           <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="300.0">
               <children>
@@ -26,7 +25,8 @@
             </AnchorPane>
               </children>
           </VBox>
-          <Button fx:id="login" mnemonicParsing="false" onAction="#processLogin" prefHeight="70.0" prefWidth="300.0" text="Login" AnchorPane.bottomAnchor="66.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+          <Button fx:id="login" mnemonicParsing="false" onAction="#processLogin" prefHeight="35.0" prefWidth="300.0" styleClass="login" text="Login" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <Button fx:id="signUp" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="signup" text="Sign Up" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
           <HBox alignment="CENTER" prefHeight="25.0" prefWidth="300.0" AnchorPane.bottomAnchor="156.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
               <children>
                   <Label fx:id="errorMessage" />

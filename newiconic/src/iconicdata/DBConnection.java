@@ -6,8 +6,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Created by user on 2016-09-25.
- * db 연결을 위한 클래스
+ *
+ * db 연결관리를 위한 클래스
  */
 public class DBConnection {
 

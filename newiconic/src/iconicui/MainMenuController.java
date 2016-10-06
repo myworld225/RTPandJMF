@@ -51,4 +51,13 @@ public class MainMenuController implements Initializable {
         });
 
     }
+
+    /*****************************************************************************
+     * 각 버튼에 대한 처리 함수들(총 4가지   화상통화 / 채팅 / 친구추가 / 로그아웃).
+     ******************************************************************************/
+
+    public void voiceCall(){}
+    public void addFriend(){} // database update action
+    public void logOut(){}
+
 }

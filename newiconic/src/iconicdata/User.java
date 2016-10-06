@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 
 /**
  * DB의 사용자 정보를 표현하는 클래스
- *
+ * 실제로는 DSD에 있는 Member 테이블을 표현한 클래스를 만들어야 한다.
  */
 public class User {
     private String name;
